@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="one.css" rel="stylesheet" />
+    <link href="one.js" rel="text/js" />
+    <title>One - Component Library</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <aside>
+            <h1>Contents</h1>
+            <div class="aside-container">
+                <a href="#avatars" class="side-item">Avatar</a>
+                <a href="#alerts" class="side-item">Alert</a>
+                <a href="#badges" class="side-item">Badge</a>
+                <a href="#buttons" class="side-item">Button</a>
+                <a href="#cards" class="side-item">Card</a>
+                <a href="#images" class="side-item">Image</a>
+                <a href="#inputs" class="side-item">Input</a>
+                <a href="#lists" class="side-item">List</a>
+                <a href="#navigation" class="side-item">Navigation</a>
+                <a href="#modals" class="side-item">Modal</a>
+                <a href="#ratings" class="side-item">Rating</a>
+                <a href="#sliders" class="side-item">Slider</a>
+                <a href="#grids" class="side-item">Grid</a>
+                <a href="#utilities" class="side-item">Text-Utilities</a>
+                <a href="#toasts" class="side-item">Toast</a>
+            </div>
+        </aside>
+        <main>
+
+            <!--Avatars-->
+            <div id="avatars" class="avatars">
+                <h1>Avatars</h1>
+                <div class="avatars-container">
+
+                    <img class="avatar-sm" src="images/robot.jpg" alt="" />
+
+                    <img class="avatar-normal" src="images/robot.jpg" alt="" />
+
+                    <img class="avatar-lg" src="images/robot.jpg" alt="" />
+
+
+                    <div class="avatar">
+                        <img class="avatar-normal" src="images/robot.jpg" alt="" />
+                        <span class="avatar-online"></span>
+                    </div>
+
+                    <div class="avatar">
+                        <img class="avatar-normal" src="images/robot.jpg" alt="" />
+                        <span class="avatar-offline"></span>
+                    </div>
+
+                    <div class="avatar">
+                        <img class="avatar-normal" src="images/robot.jpg" alt="" />
+                        <span class="avatar-time">5min</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--Alerts-->
+            <div id="alerts" class="alerts">
+                <h1>Alerts</h1>
+                <p class="alert alert-primary">A Simple Primary Alert</p>
+                <p class="alert alert-secondary">A Simple Secondary Alert</p>
+                <p class="alert alert-success">A Simple Success Alert</p>
+                <p class="alert alert-danger">A Simple Danger Alert</p>
+                <p class="alert alert-warning">A Simple Warning Alert</p>
+            </div>
+
+            <!--Badges-->
+            <div id="badges" class="all-badges">
+                <h1>Badges</h1>
+                <div class="badge-container">
+                    <span class="badge badge-primary">Primary</span>
+                    <span class="badge badge-secondary">Secondary</span>
+                    <span class="badge badge-success">Success</span>
+                    <span class="badge badge-danger">Danger</span>
+                </div>
+            </div>
+
+            <!--Buttons-->
+            <div id="buttons" class="buttons">
+
+                <h1>Buttons</h1>
+
+                <div class="btn-container">
+
+                    <!--Primary Button-->
+                    <button class="btn btn-primary">Primary</button>
+
+                    <!--Secondary Button-->
+                    <button class="btn btn-secondary">Secondary</button>
+
+                    <!--Link Button-->
+                    <button class="btn btn-link">Link</button>
+
+                    <!--Button with icon and text-->
+                    <button class="btn btn-icon-text"><i class="btn-icon-in fa fa-home"></i>Home</button>
+
+                    <!--Icon Button-->
+                    <button class="btn btn-icon"><i class="fa fa-home"></i></button>
+
+                    <!--Floating Action Button-->
+                    <button class="btn btn-float">+</button>
+                </div>
+            </div>
+
+
+            <!--Cards-->
+            <div id="cards" class="cards">
+
+                <h1>Cards</h1>
+
+                <div class="cards-container">
+
+                    <!--Card with a badge-->
+
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi
+                                voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat
+                                sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                            <div class="card-badge">
+                                <span class="badge badge-primary">NEW</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card with a dismiss button-->
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo expedita
+                                ipsum fugit voluptate ex labore veritatis doloribus accusantium amet laboriosam minima
+                                eius aliquam voluptatum adipisci ipsam, neque, cupiditate fuga accusamus.</p>
+                            <button class="btn btn-primary">Button</button>
+                            <button class="btn btn-icon card-dismiss">&times;</button>
+                        </div>
+                    </div>
+
+                    <!--Card with text overlay-->
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi
+                                voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat
+                                sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                            <div class="card-overlay">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum, asperiores
+                                    nesciunt dolores quis facilis minus debitis omnis autem impedit iste veritatis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card with only text-->
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat
+                                vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet cumque.</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                    <!--Horizontal card-->
+                    <div class="card-horizontal">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-horizontal-body">
+                            <h2 class="card-title">This is Card Title</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi laudantium,
+                                eius quis consequuntur fugiat ipsa modi unde dolore.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, architecto
+                                voluptatum neque, aspernatur quidem id omnis, dolore similique inventore sapiente
+                                delectus porro est. Dolor rem reiciendis sit molestiae, soluta a.
+                            </p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Responsive Images-->
+            <div id="images" class="images">
+
+                <h1>Images</h1>
+
+                <div class="images-container">
+                    <!--Responsive image-->
+                    <img class="img-fluid img-container-one" src="images/robot.jpg" alt="big robot" />
+
+                    <!--Round and responsive image-->
+                    <img class="img-fluid img-round img-container-one" src="images/robot.jpg" alt="big robot" />
+                </div>
+            </div>
+
+            <!--Inputs-->
+            <div id="inputs" class="inputs">
+
+                <h1>Inputs</h1>
+
+                <!--Styled inputs-->
+                <div class="input-container">
+                    <div class="input-inner">
+                        <input class="input-styled" type="text" placeholder="username" />
+
+                        <!--Styled input for errors-->
+                        <input class="input-styled input-styled-error" type="text" placeholder="email" />
+
+                        <!--Styled input for success-->
+                        <input class="input-styled input-styled-success" type="password" placeholder="password" />
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--Lists-->
+            <div id="lists" class="lists">
+
+                <h1>Lists</h1>
+
+                <!--Unstyled list-->
+                <h3>Normal List</h3>
+                <ul class="list-unstyled">
+                    <li class="list-items">Home</li>
+                    <li class="list-items">Profile</li>
+                    <li class="list-items">Lists</li>
+                    <li class="list-items">Topics</li>
+                </ul>
+
+                <!--Styled list-->
+                <h3>Styled List</h3>
+                <ul class="list-styled">
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                </ul>
+
+                <!--Another Styled list-->
+                <h3>Alternate Stripes Styled List</h3>
+                <ul class="list-styled list-styled-stripes">
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                </ul>
+
+            </div>
+
+            <div id="modals" class="modals">
+                <h1>Modal</h1>
+                <!--Modal-->
+                <div class="modal">
+
+                    <!--Modal header-->
+                    <div class="modal-header">
+                        <h2 class="modal-title">Modal Title</h2>
+                        <button class="btn btn-primary btn-close">&times;</button>
+                    </div>
+
+                    <!--Modal body-->
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto dolorem illum, amet
+                            error praesentium illo quaerat laborum unde ea cupiditate dignissimos repellendus? Beatae
+                            magni sed voluptas, vel dignissimos earum!</p>
+                    </div>
+
+                    <!--Modal footer-->
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary">Close</button>
+                        <button class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Slider-->
+            <div id="sliders" class="sliders">
+                <h1>Slider</h1>
+                <input type="range" min="100" max="1000" value="550" />
+            </div>
+
+            <!--Grids-->
+            <div id="grids" class="grids">
+
+                <h1>Grids</h1>
+
+                <!--Grid with 2 columns-->
+
+                <h3>Grid - 2 Columns</h3>
+                <div class="grid-col-2">
+
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi
+                                voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat
+                                sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi
+                                voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat
+                                sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!--Grid with 3 columns-->
+                
+                <h3>Grid - 3 Columns</h3>
+                <div class="grid-col-3">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat
+                                vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet cumque.</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat
+                                vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet cumque.</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat
+                                vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet cumque.</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Toast-->
+            <div id="toasts" class="toasts">
+
+                <h1>Toast</h1>
+                <div class="toast">
+                    <p>This is a toast</p>
+                    <button class="btn btn-primary">&times;</button>
+                </div>
+
+            </div>
+            
+
+        </main>
+    </div>
+</body>
+
+</html>
