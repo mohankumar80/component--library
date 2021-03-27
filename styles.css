@@ -101,31 +101,27 @@ main {
     margin: 1rem 0;
 }
 
-/* Iframes Styling */
-.iframes-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 40%;
+
+/* Code container */
+pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+    
+}
+
+code {
+    background-color: #94A3B8;
+    border-radius: 1rem;
+    color: white;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
 }
 
 
-iframe {
-    padding-top: 5rem;
-    border: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 30rem;
-    margin: 0;
-}
-
-
-
+/* Media query for phones */
 @media only screen and (max-width: 480px) {
 
     aside {
@@ -133,26 +129,6 @@ iframe {
     }
 
     main {
-        margin: 0;
-    }
-
-    .iframes-container {
-        position: relative;
-        overflow: hidden;
-        width: 22rem;
-        height: 30rem;
-        margin-left: 1rem;
-    }
-
-
-    iframe {
-        border: 0;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
         margin: 0;
     }
 
