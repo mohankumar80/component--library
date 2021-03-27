@@ -106,7 +106,7 @@ main {
 pre {
     white-space: pre-wrap;
     overflow-x: auto;
-    
+
 }
 
 code {
@@ -116,7 +116,7 @@ code {
     display: inline-block;
     font-size: 1rem;
     padding: 1rem;
-    width: 65%;
+    width: 90%;
 }
 
 
@@ -130,6 +130,14 @@ code {
     main {
         margin: 0;
         width: 90%;
+    }
+
+    .avatars-container,
+    .badge-container,
+    .btn-container,
+    .images-container,
+    .cards-container {
+        width: 80%;
     }
 
 }
