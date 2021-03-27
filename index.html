@@ -13,6 +13,21 @@
 </head>
 
 <body>
+
+    <!--Navigation Bar-->
+    <nav class="nav">
+
+        <h1 class="navbar-brand">One UI</h1>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href=#>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href=#><strong>Docs</strong></a></li>
+        </ul>
+        <div id="version-number">
+            <span>V1.0</span>
+        </div>
+
+    </nav>
+
     <div class="main-container">
         <aside>
             <h1>Contents</h1>
@@ -62,8 +77,12 @@
                         <img class="avatar-normal" src="images/robot.jpg" alt="" />
                         <span class="avatar-time">5min</span>
                     </div>
-
-
+                </div>
+                <div class="iframes-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-sm%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-normal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-normal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522avatar-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-normal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522avatar-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar-normal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522avatar-time%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </div>
 
@@ -75,6 +94,12 @@
                 <p class="alert alert-success">A Simple Success Alert</p>
                 <p class="alert alert-danger">A Simple Danger Alert</p>
                 <p class="alert alert-warning">A Simple Warning Alert</p>
+                <div class="iframes-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522alert%2520alert-primary%2522%253E.......%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520alert-secondary%2522%253E.....%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520alert-success%2522%253E.......%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520alert-danger%2522%253E........%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520alert-warning%2522%253E.......%253C%252Fp%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </div>
 
             <!--Badges-->
@@ -85,6 +110,15 @@
                     <span class="badge badge-secondary">Secondary</span>
                     <span class="badge badge-success">Success</span>
                     <span class="badge badge-danger">Danger</span>
+                </div>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253EPrimary%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-secondary%2522%253ESecondary%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-success%2522%253ESuccess%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-danger%2522%253EDanger%253C%252Fspan%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
                 </div>
             </div>
 
@@ -111,8 +145,17 @@
                     <button class="btn btn-icon"><i class="fa fa-home"></i></button>
 
                     <!--Floating Action Button-->
-                    <button class="btn btn-float">+</button>
+                    <button class="btn-float">+</button>
                 </div>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon-text%2522%253EHome%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253EIcon%2520here%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-float%2522%253E%252B%253C%252Fbutton%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
             </div>
 
 
@@ -142,13 +185,13 @@
                     <!--Card with a dismiss button-->
                     <div class="card">
                         <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <button class="btn btn-icon card-dismiss">&times;</button>
                         <div class="card-body">
                             <h2 class="card-title">Card Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo expedita
-                                ipsum fugit voluptate ex labore veritatis doloribus accusantium amet laboriosam minima
-                                eius aliquam voluptatum adipisci ipsam, neque, cupiditate fuga accusamus.</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi
+                                voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat
+                                sapiente cupiditate! Unde fugiat eum temporibus!</p>
                             <button class="btn btn-primary">Button</button>
-                            <button class="btn btn-icon card-dismiss">&times;</button>
                         </div>
                     </div>
 
@@ -162,8 +205,7 @@
                                 sapiente cupiditate! Unde fugiat eum temporibus!</p>
                             <button class="btn btn-primary">Button</button>
                             <div class="card-overlay">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum, asperiores
-                                    nesciunt dolores quis facilis minus debitis omnis autem impedit iste veritatis.</p>
+                                <p>This is the overlay text</p>
                             </div>
                         </div>
                     </div>
@@ -179,25 +221,20 @@
                         </div>
                     </div>
 
-                    <!--Horizontal card-->
-                    <div class="card-horizontal">
-                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
-                        <div class="card-horizontal-body">
-                            <h2 class="card-title">This is Card Title</h2>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi laudantium,
-                                eius quis consequuntur fugiat ipsa modi unde dolore.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, architecto
-                                voluptatum neque, aspernatur quidem id omnis, dolore similique inventore sapiente
-                                delectus porro est. Dolor rem reiciendis sit molestiae, soluta a.
-                            </p>
-                            <button class="btn btn-primary">Button</button>
-                        </div>
-                    </div>
+                </div>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cimg%2520class%253D%2522img-fluid%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Ch2%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh2%253E%250A%2509%2509%253Cp%2520class%253D%2522card-text%2522%253E...%253E%250A%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EButton%253C%252Fbutton%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253ENEW%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
                 </div>
 
             </div>
+
+
 
             <!--Responsive Images-->
             <div id="images" class="images">
@@ -211,7 +248,19 @@
                     <!--Round and responsive image-->
                     <img class="img-fluid img-round img-container-one" src="images/robot.jpg" alt="big robot" />
                 </div>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-fluid%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%250A%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
             </div>
+
+
 
             <!--Inputs-->
             <div id="inputs" class="inputs">
@@ -232,6 +281,58 @@
                     </div>
                 </div>
 
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input-styled%2522%2520type%253D%2522...%2522%2520placeholder%253D%2522...%2522%2520%252F%253E%250A%250A%253Cinput%2520class%253D%2522input-styled%2520input-styled-error%2522%2520type%253D%2522...%2522%2520placeholder%253D%2522...%2522%2520%252F%253E%250A%250A%253Cinput%2520class%253D%2522input-styled%2520input-styled-success%2522%2520type%253D%2522...%2522%2520placeholder%253D%2522...%2522%2520%252F%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+
+
+            <!--Navigation Bar-->
+            <div id="navigation" class="navigations">
+
+                <h1>Navigation</h1>
+
+                <!--Basic navigation-->
+                <div class="navbar-one">
+                    <nav class="nav">
+                        <a href="#" class="navbar-brand">Nav</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href=#>Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href=#>Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href=#>About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!--Styled navigation-->
+                <nav class="nav navbar-styled">
+                    <a href="#" class="navbar-brand">Nav</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href=#>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href=#>Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href=#>About</a></li>
+                    </ul>
+                    <div>
+                        <i class="fa fa-2x fa-facebook-official"></i>
+                        <i class="fa fa-2x fa-twitter"></i>
+                    </div>
+                </nav>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav%2522%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522navbar-brand%2522%253ENav%253C%252Fa%253E%250A%2509%253Cul%2520class%253D%2522navbar-nav%2522%253E%250A%2509%2509%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520class%253D%2522nav-link%2522%2520href%253D%2523%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Home%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520class%253D%2522nav-link%2522%2520href%253D%2523%253E%2509%2509%2509%2509%2509Contact%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520class%253D%2522nav-link%2522%2520href%253D%2523%253E%2509%2509%2509%2509%2509About%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2509%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
+
             </div>
 
 
@@ -249,6 +350,15 @@
                     <li class="list-items">Topics</li>
                 </ul>
 
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-unstyled%2522%253E%250A%2509%253Cli%2520class%253D%2522list-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-items%2522%253E...%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
                 <!--Styled list-->
                 <h3>Styled List</h3>
                 <ul class="list-styled">
@@ -259,6 +369,17 @@
                     <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
                 </ul>
 
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-styled%2522%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
+
                 <!--Another Styled list-->
                 <h3>Alternate Stripes Styled List</h3>
                 <ul class="list-styled list-styled-stripes">
@@ -268,6 +389,17 @@
                     <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
                     <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
                 </ul>
+
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-styled%2520list-styled-stripes%2522%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522list-styled-items%2522%253E...%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
 
             </div>
 
@@ -295,12 +427,32 @@
                         <button class="btn btn-primary">Save</button>
                     </div>
                 </div>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%253C%21--Modal%2520header--%253E%250A%2509%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2509%2509%253Ch2%2520class%253D%2522modal-title%2522%253EModal%2520Title%253C%252Fh2%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253C%21--Modal%2520body--%253E%250A%2509%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2509%2509%253Cp%253E...%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253C%21--Modal%2520footer--%253E%250A%2509%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E...%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+
+                </div>
+
+
             </div>
 
             <!--Slider-->
             <div id="sliders" class="sliders">
                 <h1>Slider</h1>
                 <input type="range" min="100" max="1000" value="550" />
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%2522...%2522%2520max%253D%2522...%2522%2520value%253D%2522...%2522%2520%252F%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
             </div>
 
             <!--Grids-->
@@ -311,7 +463,7 @@
                 <!--Grid with 2 columns-->
 
                 <h3>Grid - 2 Columns</h3>
-                <div class="grid-col-2">
+                <div class="grid-container grid-col-2">
 
                     <div class="card">
                         <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
@@ -323,7 +475,7 @@
                             <button class="btn btn-primary">Button</button>
                         </div>
                     </div>
-                    
+
                     <div class="card">
                         <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
                         <div class="card-body">
@@ -337,9 +489,17 @@
 
                 </div>
 
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container%2520grid-col-2%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522...%2522%253E...%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522...%2522%253E...%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
 
                 <!--Grid with 3 columns-->
-                
+
                 <h3>Grid - 3 Columns</h3>
                 <div class="grid-col-3">
 
@@ -352,7 +512,7 @@
                             <button class="btn btn-primary">Button</button>
                         </div>
                     </div>
-                    
+
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Card Title</h1>
@@ -374,6 +534,17 @@
                     </div>
 
                 </div>
+
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container%2520grid-col-3%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522...%2522%253E...%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522...%2522%253E...%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522...%2522%253E...%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
+
             </div>
 
             <!--Toast-->
@@ -385,8 +556,17 @@
                     <button class="btn btn-primary">&times;</button>
                 </div>
 
+                <div class="iframes-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=9px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2509%253Cp%253E...%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522...%2522%253E...%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+
             </div>
-            
+
 
         </main>
     </div>
