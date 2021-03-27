@@ -116,8 +116,7 @@ code {
     display: inline-block;
     font-size: 1rem;
     padding: 1rem;
-    width: 80%;
-    margin: auto;
+    width: 65%;
 }
 
 
@@ -130,6 +129,7 @@ code {
 
     main {
         margin: 0;
+        width: 90%;
     }
 
 }

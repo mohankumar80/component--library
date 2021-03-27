@@ -482,7 +482,7 @@ Toast
 @media only screen and (max-width: 480px) {
 
     .card {
-        width: 10rem;
+        width: 18rem;
     }
 
     .grid-col-2, .grid-col-3 {
