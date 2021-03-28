@@ -9,7 +9,7 @@
     <link href="styles.css" rel="stylesheet" />
     <link href="one.css" rel="stylesheet" />
     <link href="one.js" rel="text/js" />
-    <title>One - Component Library</title>
+    <title>OneUI - Component Library</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
             <li class="nav-item"><a class="nav-link" href=#>Home</a></li>
             <li class="nav-item"><a class="nav-link" href=#><strong>Docs</strong></a></li>
         </ul>
-        <div id="version-number">
+        <div class="version-number">
             <span>V1.0</span>
         </div>
 
@@ -54,6 +54,7 @@
 
             <!--Alerts-->
             <div id="alerts" class="alerts">
+
                 <h1>Alerts</h1>
                 <p>provides feedback to user's actions.</p>
                 <div class="alerts-container">
@@ -83,6 +84,7 @@
 
             <!--Avatars-->
             <div id="avatars" class="avatars">
+
                 <h1>Avatars</h1>
                 <p>An Avatar is a graphical representation of person. Usually used in social media,
                     online communities, gaming to identify an individual.</p>
@@ -147,6 +149,7 @@
 
             <!--Badges-->
             <div id="badges" class="all-badges">
+
                 <h1>Badges</h1>
                 <p>Badges add extra information to the content. Like a message counter on a
                     messaging application.</p>
@@ -424,10 +427,15 @@
 
                 <div class="images-container">
                     <!--Responsive image-->
-                    <img class="img-fluid img-container-one" src="images/robot.jpg" alt="big robot" />
-
+                    <div class="img-container-one">
+                        <img class="img-fluid" src="images/space-shuttle.jpg"
+                            alt="Space shuttle getting ready to launch!!" />
+                    </div>
                     <!--Round and responsive image-->
-                    <img class="img-fluid img-round img-container-one" src="images/robot.jpg" alt="big robot" />
+                    <div class="img-container-one">
+                        <img class="img-fluid img-round" src="images/astronaut.jpg" alt="astronaut on the moon" />
+                    </div>
+
                 </div>
 
                 <div class="code-container">
@@ -726,7 +734,28 @@
                 <p class="font-size-5">This line has font size 1.5rem</p>
                 <p class="font-size-6">This line has font size 1rem</p>
                 <p class="font-size-7">This line has font size 0.75rem</p>
-                <br>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="font-size-1"&gt;...&lt;/p&gt;
+
+                            &lt;p class="font-size-2"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-3"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-4"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-5"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-6"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-7"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
 
                 <!--Font weights-->
                 <h3>Font Weights</h3>
@@ -734,15 +763,53 @@
                 <p class="font-weight-bolder">This line has font weight as Bolder</p>
                 <p class="font-weight-lighter">This line has font weight as Lighter</p>
 
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="font-weight-bold"&gt;...&lt;/p&gt;
+
+                            &lt;p class="font-weight-bolder"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-weight-lighter"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
                 <!--Font Styles-->
                 <h3>Font Styles</h3>
                 <p class="font-style-normal">This line has font style as Normal</p>
                 <p class="font-style-italic">This line has font style as Italic</p>
 
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="font-style-normal"&gt;...&lt;/p&gt;
+
+                            &lt;p class="font-style-italic"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
                 <!--Text colors-->
                 <h3>Text Colors</h3>
                 <p class="text-color-black">This line has text color as Black</p>
                 <p class="text-color-gray">This text has text-color as Gray</p>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="text-color-black"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-color-gray"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
 
                 <!--Text alignments-->
                 <h3>Text Alignment</h3>
@@ -750,16 +817,54 @@
                 <p class="text-align-center">This line is Center aligned</p>
                 <p class="text-align-right">This line is Right aligned</p>
 
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="text-align-left"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-align-center"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-align-right"&gt;...&lt;/p&gt;    
+                        </code>
+                    </pre>
+                </div>
+
+
                 <!--Text transformations - uppercase and lowercase-->
                 <h3>Text Transform</h3>
                 <p class="text-lowercase">This Line Is Converted To Lowercase</p>
                 <p class="text-uppercase">this line is converted to uppercase</p>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="text-lowercase"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-uppercase"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
 
                 <!--Text decorations-->
                 <h3>Text Decoration</h3>
                 <a href="#" class="text-decoration-none">This line has text decoration as none</a>
                 <p class="text-decoration-underline">This line has a line underneath it</p>
                 <p class="text-decoration-line-through">This line has a line through it</p>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;a href="#" class="text-decoration-none"&gt;...&lt;/a&gt;
+
+                            &lt;p class="text-decoration-underline"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="text-decoration-line-through"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
             </div>
 
 
@@ -768,7 +873,8 @@
             <div id="toasts" class="toasts">
 
                 <h1>Toast</h1>
-                <p>The toast component is like an alert box that is only shown for a couple of seconds when something happens i.e. when the user clicks on a button, submits a form, etc. </p>
+                <p>The toast component is like an alert box that is only shown for a couple of seconds when something
+                    happens i.e. when the user clicks on a button, submits a form, etc. </p>
 
                 <div class="toast">
                     <p>This is a toast</p>

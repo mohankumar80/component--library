@@ -12,6 +12,43 @@
     --red: #EF4444;
 }
 
+
+/* 
+Alerts 
+*/
+
+.alert {
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+/* Primary Alert*/
+.alert-primary {
+    background-color: var(--orange);
+}
+
+/* Secondary Alert*/
+.alert-secondary {
+    background-color: var(--secondary);
+}
+
+/* Success Alert*/
+.alert-success {
+    background-color: var(--light-green);
+}
+
+/* Danger Alert*/
+.alert-danger {
+    background-color: var(--light-red);
+}
+
+/* Warning Alert*/
+.alert-warning {
+    background-color: var(--light-yellow);
+}
+
+
+
 /*
 Avatars
 */
@@ -80,41 +117,6 @@ Avatars
     left: 2rem;
     bottom: 0;
     box-shadow: 0 0 0 0.1rem white;
-}
-
-
-/* 
-Alerts 
-*/
-
-.alert {
-    border-radius: 0.2rem;
-    padding: 1rem;
-}
-
-/* Primary Alert*/
-.alert-primary {
-    background-color: var(--orange);
-}
-
-/* Secondary Alert*/
-.alert-secondary {
-    background-color: var(--secondary);
-}
-
-/* Success Alert*/
-.alert-success {
-    background-color: var(--light-green);
-}
-
-/* Danger Alert*/
-.alert-danger {
-    background-color: var(--light-red);
-}
-
-/* Warning Alert*/
-.alert-warning {
-    background-color: var(--light-yellow);
 }
 
 
@@ -198,6 +200,7 @@ Buttons
 
 /* Icon button with text */
 .btn-icon-text {
+    padding-right: 1rem;
     background-color: var(--orange);
 }
 
@@ -285,6 +288,26 @@ Cards
 }
 
 
+
+
+/*
+Grids
+*/
+
+/* Grid with 2 columns */
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Grid with 3 colums */
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
 /*
 Images
 */
@@ -335,45 +358,6 @@ Inputs
 
 
 /*
-Navigation Bar
-*/
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1.5rem;
-    background-color: var(--orange);
-}
-
-.navbar-brand {
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-.navbar-nav {
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item {
-    display: inline;
-    margin: 0 2rem;
-    list-style-type: none;
-}
-
-.nav-link {
-    color: black;
-    text-decoration: none;
-}
-
-
-
-/*
 Lists
 */
 
@@ -412,6 +396,8 @@ Lists
     background-color: var(--gray);
 }
 
+
+
 /*
 Modal
 */
@@ -446,22 +432,44 @@ Modal
     padding: 0.5rem;
 }
 
+
+
 /*
-Grids
+Navigation Bar
 */
-
-/* Grid with 2 columns */
-.grid-col-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: var(--orange);
 }
 
-/* Grid with 3 colums */
-.grid-col-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
+.navbar-nav {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 2rem;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
 
 
 /*

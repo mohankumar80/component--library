@@ -9,13 +9,9 @@ body {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
-
 
 /* Main Navigation Bar Styling */
-#version-number {
+.version-number {
     color: #374151;
 }
 
@@ -78,7 +74,7 @@ main {
 }
 
 .img-container-one {
-    height: auto;
+    height: 20rem;
     width: 20rem;
 }
 
@@ -142,13 +138,5 @@ code {
         padding: 0;
         width: 80%;
     }
-
-    /* .avatars-container,
-    .badge-container,
-    .btn-container,
-    .images-container,
-    .cards-container {
-        width: 80%;
-    } */
 
 }
