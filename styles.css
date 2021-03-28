@@ -58,6 +58,12 @@ main {
     margin-left: 12rem;
 }
 
+.alerts-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 
 /* Making every component a flex container */
 .avatars-container,
@@ -119,6 +125,10 @@ code {
     width: 90%;
 }
 
+.utilites > h3 {
+    color: #FF7518;
+}
+
 
 /* Media query for phones */
 @media only screen and (max-width: 480px) {
@@ -129,15 +139,16 @@ code {
 
     main {
         margin: 0;
-        width: 90%;
+        padding: 0;
+        width: 80%;
     }
 
-    .avatars-container,
+    /* .avatars-container,
     .badge-container,
     .btn-container,
     .images-container,
     .cards-container {
         width: 80%;
-    }
+    } */
 
 }
