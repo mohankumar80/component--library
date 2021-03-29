@@ -194,7 +194,10 @@ Buttons
     border: 0;
     color: var(--orange);
     font-size: 1rem;
-    text-decoration: underline;
+}
+
+.btn-link:hover {
+    text-decoration: underline;   
 }
 
 /* Icon button with text */
@@ -213,6 +216,7 @@ Buttons
 
 /* Icon button */
 .btn-icon {
+    padding: 0.9rem;
     background-color: var(--orange);
 }
 
@@ -323,6 +327,26 @@ Images
     border-radius: 50%;
 }
 
+/* Small round image */
+.img-round-sm {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+/* Medium round image */
+.img-round-md {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
+/* Large round image */
+.img-round-lg {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
 
 
 /*
