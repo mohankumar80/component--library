@@ -12,7 +12,6 @@
     --red: #EF4444;
 }
 
-
 /* 
 Alerts 
 */
@@ -166,7 +165,7 @@ Buttons
     font-size: 1rem;
     margin: 0.2rem;
     padding: 0.5rem;
-    outline: none;
+    outline: transparent;
 }
 
 /* Primary Button */
@@ -230,11 +229,12 @@ Buttons
     font-size: 1rem;
     width: 2.5rem;
     height: 2.5rem;
-    outline: none;
+    outline: transparent;
 }
 
 .btn-float:hover {
     background-color: var(--dark-orange);
+    cursor: pointer;
 }
 
 
@@ -341,7 +341,7 @@ Inputs
 .input-styled:focus {
     border: 2px solid white;
     border-radius: 0.2rem;
-    outline: none;
+    outline: transparent;
     box-shadow: 0 0 0 0.2rem var(--orange);
 }
 
