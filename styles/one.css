@@ -12,6 +12,7 @@
     --red: #EF4444;
 }
 
+
 /* 
 Alerts 
 */
@@ -21,65 +22,81 @@ Alerts
     padding: 1rem;
 }
 
+
 /* Primary Alert*/
+
 .alert-primary {
     background-color: var(--orange);
 }
 
+
 /* Secondary Alert*/
+
 .alert-secondary {
     background-color: var(--secondary);
 }
 
+
 /* Success Alert*/
+
 .alert-success {
     background-color: var(--light-green);
 }
 
+
 /* Danger Alert*/
+
 .alert-danger {
     background-color: var(--light-red);
 }
 
+
 /* Warning Alert*/
+
 .alert-warning {
     background-color: var(--light-yellow);
 }
-
 
 
 /*
 Avatars
 */
 
+
 /* Small Avatar */
+
 .avatar-sm {
     border-radius: 50%;
     height: 2rem;
     width: 2rem;
 }
 
+
 /* Normal/ Medium Avatar */
+
 .avatar-normal {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
 }
 
+
 /* Large Avatar */
+
 .avatar-lg {
     border-radius: 50%;
     height: 4.5rem;
     width: 4.5rem;
 }
 
-
 .avatar {
     display: inline;
     position: relative;
 }
 
+
 /* Online Avatar */
+
 .avatar-online {
     border-radius: 50%;
     background-color: var(--green);
@@ -92,7 +109,9 @@ Avatars
     box-shadow: 0 0 0 0.1rem white;
 }
 
+
 /* Offline Avatar */
+
 .avatar-offline {
     border-radius: 50%;
     background-color: var(--red);
@@ -105,7 +124,9 @@ Avatars
     box-shadow: 0 0 0 0.1rem white;
 }
 
+
 /* Avatar for last seen */
+
 .avatar-time {
     background-color: var(--red);
     border-radius: 0.5rem;
@@ -119,10 +140,10 @@ Avatars
 }
 
 
-
 /*
 Badges
 */
+
 .badge {
     border-radius: 0.2rem;
     color: white;
@@ -131,28 +152,37 @@ Badges
     padding: 0.2rem;
 }
 
+
 /* Primary badge */
+
 .badge-primary {
     background-color: var(--orange);
 }
 
+
 /* Secondary badge */
+
 .badge-secondary {
     background-color: var(--gray);
 }
 
+
 /* Success Badge */
+
 .badge-success {
     background-color: var(--green);
 }
 
+
 /* Danger Badge */
+
 .badge-danger {
     background-color: var(--red);
 }
 
 
 /* Badge over Icon */
+
 .badge-icon {
     position: relative;
 }
@@ -164,7 +194,6 @@ Badges
     border-radius: 50%;
     padding: 0.1rem;
 }
-
 
 
 /*
@@ -182,7 +211,9 @@ Buttons
     outline: transparent;
 }
 
+
 /* Primary Button */
+
 .btn-primary {
     border: 1px solid var(--orange);
     background-color: var(--orange);
@@ -192,7 +223,9 @@ Buttons
     background-color: var(--dark-orange);
 }
 
+
 /* Secondary button */
+
 .btn-secondary {
     border: 1px solid var(--gray);
     background-color: var(--gray);
@@ -202,7 +235,9 @@ Buttons
     background-color: var(--dark-gray);
 }
 
+
 /* Link button */
+
 .btn-link {
     background-color: white;
     border: 0;
@@ -211,10 +246,12 @@ Buttons
 }
 
 .btn-link:hover {
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
+
 /* Icon button with text */
+
 .btn-icon-text {
     padding-right: 1rem;
     background-color: var(--orange);
@@ -228,7 +265,9 @@ Buttons
     background-color: var(--dark-orange);
 }
 
+
 /* Icon button */
+
 .btn-icon {
     padding: 0.9rem;
     background-color: var(--orange);
@@ -240,6 +279,7 @@ Buttons
 
 
 /* Floating button */
+
 .btn-float {
     border: 0;
     border-radius: 50%;
@@ -256,12 +296,13 @@ Buttons
 }
 
 
-
 /*
 Cards
 */
 
+
 /* General styling for card component */
+
 .card {
     border: 2px solid black;
     border-radius: 0.2rem;
@@ -285,77 +326,94 @@ Cards
     line-height: 1.25rem;
 }
 
+
 /* Card with Badge */
+
 .card-badge {
     position: absolute;
     top: 3rem;
     left: 0;
 }
 
+
 /* Card with Dismiss button */
+
 .card-dismiss {
     position: absolute;
     top: 1rem;
     right: 1rem;
 }
 
+
 /* Card with text overlay */
+
 .card-overlay {
     position: absolute;
     top: 0;
 }
 
 
-
-
 /*
 Grids
 */
 
+
 /* Grid with 2 columns */
+
 .grid-col-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+
 /* Grid with 3 colums */
+
 .grid-col-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 
-
 /*
 Images
 */
 
+
 /* Responsive Image */
+
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
 
+
 /* Round image */
+
 .img-round {
     border-radius: 50%;
 }
 
+
 /* Small round image */
+
 .img-round-sm {
     border-radius: 50%;
     height: 5rem;
     width: 5rem;
 }
 
+
 /* Medium round image */
+
 .img-round-md {
     border-radius: 50%;
     height: 10rem;
     width: 10rem;
 }
 
+
 /* Large round image */
+
 .img-round-lg {
     border-radius: 50%;
     height: 20rem;
@@ -383,23 +441,28 @@ Inputs
     box-shadow: 0 0 0 0.2rem var(--orange);
 }
 
+
 /* Error state */
+
 .input-styled-error {
     border: 2px solid var(--red);
 }
 
+
 /* Success state */
+
 .input-styled-success {
     border: 2px solid var(--green);
 }
-
 
 
 /*
 Lists
 */
 
+
 /* Normal List */
+
 .list-unstyled {
     display: inline-block;
     padding: 0;
@@ -410,7 +473,9 @@ Lists
     padding: 0.5rem;
 }
 
+
 /* Stacked/Styled List */
+
 .list-styled {
     border: 2px solid var(--gray);
     border-radius: 0.5rem;
@@ -429,23 +494,27 @@ Lists
     border-bottom: none;
 }
 
+
 /* Alternate stripes styled list */
+
 .list-styled-stripes>.list-styled-items:nth-child(even) {
     background-color: var(--gray);
 }
 
 
-
 /*
 Modal
 */
+
 .modal {
     border: 2px solid var(--gray);
     border-radius: 0.5rem;
     width: 20rem;
 }
 
+
 /* Modal header */
+
 .modal-header {
     border-bottom: 2px solid var(--gray);
     display: flex;
@@ -457,13 +526,17 @@ Modal
     margin: 0.5rem 0;
 }
 
+
 /* Modal body */
+
 .modal-body {
     padding: 0.5rem;
     border-bottom: 2px solid var(--gray);
 }
 
+
 /* Modal footer */
+
 .modal-footer {
     display: flex;
     justify-content: flex-end;
@@ -471,10 +544,10 @@ Modal
 }
 
 
-
 /*
 Navigation Bar
 */
+
 .nav {
     display: flex;
     align-items: center;
@@ -514,7 +587,9 @@ Navigation Bar
 Text Utilities
 */
 
+
 /* Different font sizes ranging from font-size: 3.5rem to font-size: 0.5rem */
+
 .font-size-1 {
     font-size: 3.5rem;
 }
@@ -543,7 +618,9 @@ Text Utilities
     font-size: 0.75rem;
 }
 
+
 /* Font weights */
+
 .font-weight-bold {
     font-weight: bold;
 }
@@ -558,6 +635,7 @@ Text Utilities
 
 
 /* Font styles */
+
 .font-style-italic {
     font-style: italic;
 }
@@ -566,7 +644,9 @@ Text Utilities
     font-style: normal;
 }
 
+
 /* Text colors */
+
 .text-color-black {
     color: #000000;
 }
@@ -575,7 +655,9 @@ Text Utilities
     color: #A1A1AA;
 }
 
+
 /* Different types of text alignments */
+
 .text-align-left {
     text-align: left;
 }
@@ -588,7 +670,9 @@ Text Utilities
     text-align: right;
 }
 
+
 /* Text transformations */
+
 .text-lowercase {
     text-transform: lowercase;
 }
@@ -599,6 +683,7 @@ Text Utilities
 
 
 /* Text decorations */
+
 .text-decoration-none {
     text-decoration: none;
 }
@@ -615,6 +700,7 @@ Text Utilities
 /*
 Toast
 */
+
 .toast {
     border: 1px solid var(--orange);
     border-radius: 0.5rem;
@@ -625,17 +711,12 @@ Toast
     width: 18rem;
 }
 
-
-
-
 @media only screen and (max-width: 480px) {
-
     .card {
         width: 18rem;
     }
-
-    .grid-col-2, .grid-col-3 {
+    .grid-col-2,
+    .grid-col-3 {
         grid-template-columns: 1fr;
     }
-
 }

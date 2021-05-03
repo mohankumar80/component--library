@@ -1,0 +1,57 @@
+:root {
+    --blue-gray: #64748B;
+    --light-gray: #F1F5F9;
+    --orange: #F97316;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: var(--light-gray);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.sub-heading {
+    font-size: 4rem;
+}
+
+.sub-text {
+    margin: 2rem 0;
+}
+
+
+/* For Links */
+
+.link-style {
+    cursor: pointer;
+    outline: transparent;
+    padding: 0.2rem;
+    text-decoration: none;
+}
+
+.btn-first {
+    color: var(--blue-gray);
+    border: 2px solid var(--blue-gray);
+    border-radius: 0.2rem;
+}
+
+.btn-second {
+    background-color: var(--orange);
+    color: var(--white);
+    border: 2px solid var(--orange);
+    border-radius: 0.2rem;
+}
+
+@media only screen and (min-width: 720px) {
+    .link-style {
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+    }
+}
