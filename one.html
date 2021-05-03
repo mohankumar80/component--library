@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./styles/styles.css" rel="stylesheet" />
+    <link href="./styles/one.css" rel="stylesheet" />
+    <link href="one.js" rel="text/js" />
+    <title>OneUI - Component Library</title>
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="nav">
+
+        <h1 class="navbar-brand">One UI</h1>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><strong>Docs</strong></a></li>
+        </ul>
+        <div class="version-number">
+            <span>V1.0</span>
+        </div>
+
+    </nav>
+
+    <div class="main-container">
+        <aside>
+            <h1>Contents</h1>
+            <ul class="list-unstyled">
+                <li><a href="#introduction" class="side-item">Introduction</a></li>
+                <li><a href="#alerts" class="side-item">Alert</a></li>
+                <li><a href="#avatars" class="side-item">Avatar</a></li>
+                <li><a href="#badges" class="side-item">Badge</a></li>
+                <li><a href="#buttons" class="side-item">Button</a></li>
+                <li><a href="#cards" class="side-item">Card</a></li>
+                <li><a href="#grids" class="side-item">Grid</a></li>
+                <li><a href="#images" class="side-item">Images</a></li>
+                <li><a href="#inputs" class="side-item">Input</a></li>
+                <li><a href="#lists" class="side-item">List</a></li>
+                <li><a href="#modals" class="side-item">Modal</a></li>
+                <li><a href="#navigation" class="side-item">Navigation</a></li>
+                <li><a href="#ratings" class="side-item">Rating</a></li>
+                <li><a href="#sliders" class="side-item">Slider</a></li>
+                <li><a href="#utilities" class="side-item">Text-Utilities</a></li>
+                <li><a href="#toasts" class="side-item">Toast</a></li>
+            </ul>
+        </aside>
+        <main>
+
+
+            <!--Introduction-->
+            <section id="introduction" class="introduction">
+
+                <h1>To import the library and start making your projects awesome, Use the below link :</h1>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            https://one-ui.netlify.app/one.css
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+            <!--Alerts-->
+            <section id="alerts" class="alerts">
+
+                <article>
+                    <h1>Alerts</h1>
+                    <p>provides feedback to user's actions.</p>
+                </article>
+                <div class="alerts-container">
+                    <p class="alert alert-primary">A Simple Primary Alert</p>
+                    <p class="alert alert-secondary">A Simple Secondary Alert</p>
+                    <p class="alert alert-success">A Simple Success Alert</p>
+                    <p class="alert alert-danger">A Simple Danger Alert</p>
+                    <p class="alert alert-warning">A Simple Warning Alert</p>
+                </div>
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;div class="alert alert-primary"&gt;...&lt;/div&gt;
+                            
+                            &lt;div class="alert alert-secondary"&gt;...&lt;/div&gt;
+                            
+                            &lt;div class="alert alert-success"&gt;...&lt;/div&gt;
+                            
+                            &lt;div class="alert alert-danger"&gt;...&lt;/div&gt;
+                            
+                            &lt;div class="alert alert-warning"&gt;...&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+            <!--Avatars-->
+            <section id="avatars" class="avatars">
+
+                <article>
+                    <h1>Avatars</h1>
+                    <p>An Avatar is a graphical representation of person. Usually used in social media, online communities, gaming to identify an individual.</p>
+                </article>
+
+                <div class="avatars-container">
+
+                    <img class="avatar-sm" src="images/robot.jpg" alt="" />
+
+                    <img class="avatar-normal" src="images/robot.jpg" alt="" />
+
+                    <img class="avatar-lg" src="images/robot.jpg" alt="" />
+
+
+                    <div class="avatar">
+                        <img class="avatar-normal" src="images/robot.jpg" alt="" />
+                        <span class="avatar-online"></span>
+                    </div>
+
+                    <div class="avatar">
+                        <img class="avatar-normal" src="images/robot.jpg" alt="" />
+                        <span class="avatar-offline"></span>
+                    </div>
+
+                    <div class="avatar">
+                        <img class="avatar-normal" src="images/robot.jpg" alt="" />
+                        <span class="avatar-time">5min</span>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+
+                            &lt;img class="avatar-sm" src="..." alt="..." /&gt;
+
+                            &lt;img class="avatar-normal" src="..." alt="..." /&gt;
+
+                            &lt;img class="avatar-lg" src="..." alt="..." /&gt;
+
+                            &lt;div class="avatar"&gt;
+                                &lt;img class="avatar-normal" src="..." alt="..." /&gt;
+                                &lt;span class="avatar-online"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="avatar"&gt;
+                                &lt;img class="avatar-normal" src="..." alt="..." /&gt;
+                                &lt;span class="avatar-offline"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="avatar"&gt;
+                                &lt;img class="avatar-normal" src="..." alt="..." /&gt;
+                                &lt;span class="avatar-time"&gt;5min&lt;/span&gt;
+                            &lt;/div&gt;
+
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Badges-->
+            <section id="badges" class="all-badges">
+
+                <article>
+                    <h1>Badges</h1>
+                    <p>Badges add extra information to the content. Like a message counter on a messaging application.</p>
+                </article>
+
+                <div class="badge-container">
+                    <span class="badge badge-primary">Primary</span>
+                    <span class="badge badge-secondary">Secondary</span>
+                    <span class="badge badge-success">Success</span>
+                    <span class="badge badge-danger">Danger</span>
+                    <div class="badge-icon">
+                        <i class="fa fa-lg fa-shopping-cart"></i>
+                        <span class="badge-hover">0</span>
+                    </div>
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;span class="badge badge-primary&gt;...&lt;span&gt;
+
+                            &lt;span class="badge badge-primary&gt;...&lt;span&gt;
+
+                            &lt;span class="badge badge-primary&gt;...&lt;span&gt;
+
+                            &lt;span class="badge badge-primary&gt;...&lt;span&gt;
+
+                            &lt;span class="badge badge-primary&gt;...&lt;span&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+            <!--Buttons-->
+            <section id="buttons" class="buttons">
+
+                <article>
+                    <h1>Buttons</h1>
+                    <p>Buttons allow an user to take an action like triggering an event, opening/closing an application, submitting a form etc.,</p>
+                </article>
+
+                <div class="btn-container">
+
+                    <!--Primary Button-->
+                    <button class="btn btn-primary">Primary</button>
+
+                    <!--Secondary Button-->
+                    <button class="btn btn-secondary">Secondary</button>
+
+                    <!--Link Button-->
+                    <button class="btn btn-link">Link</button>
+
+                    <!--Button with icon and text-->
+                    <button class="btn btn-icon-text"><i class="btn-icon-in fa fa-home"></i>Home</button>
+
+                    <!--Icon Button-->
+                    <button class="btn btn-icon"><i class="fa fa-home"></i></button>
+
+                    <!--Floating Action Button-->
+                    <button class="btn-float">+</button>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;button class="btn btn-primary"&gt;...&lt;button&gt;
+
+                            &lt;button class="btn btn-secondary"&gt;...&lt;button&gt;
+
+                            &lt;button class="btn btn-link"&gt;...&lt;button&gt;
+
+                            &lt;button class="btn btn-icon-text"&gt;...&lt;button&gt;
+
+                            &lt;button class="btn btn-icon"&gt;...&lt;button&gt;
+
+                            &lt;button class="btn-float"&gt;...&lt;button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+            <!--Cards-->
+            <section id="cards" class="cards">
+
+                <article>
+                    <h1>Cards</h1>
+                    <p>A card is a flexible and extensible content container. It usually consists of body and footer along with buttons, badges and other contents. Usually found in ecommerce and video streaming applications</p>
+                </article>
+
+                <div class="cards-container">
+
+                    <!--Card with a badge-->
+
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                            <div class="card-badge">
+                                <span class="badge badge-primary">NEW</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card with a dismiss button-->
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <button class="btn btn-icon card-dismiss">&times;</button>
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                    <!--Card with text overlay-->
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                            <div class="card-overlay">
+                                <p>This is the overlay text</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card with only text-->
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                                cumque.
+                            </p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+
+                            &lt;div class="card"&gt;
+                                &lt;img class="img-fluid" src="..." alt="..." /&gt;
+                                &lt;div class="card-body"&gt;
+                                    &lt;h2 class="card-title"&gt;Card Title&lt;/h2&gt;
+                                    &lt;p class="card-text"&gt;.....&lt;/p&gt;
+                                    &lt;button class="btn btn-primary"&gt;Button&lt;/button&gt;
+                                    &lt;div class="card-badge"&gt;
+                                        &lt;span class="badge badge-primary"&gt;NEW&lt;/span&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+            <!--Grids-->
+            <section id="grids" class="grids">
+
+                <h1>Grids</h1>
+
+                <!--Grid with 2 columns-->
+
+                <h3>Grid - 2 Columns</h3>
+                <div class="grid-container grid-col-2">
+
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="img-fluid" src="images/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;div class="grid-col-2"&gt;
+
+                                &lt;div class="..."&gt;...&lt;/div&gt;
+                                &lt;div class="..."&gt;...&lt;/div&gt;
+
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Grid with 3 columns-->
+
+                <h3>Grid - 3 Columns</h3>
+                <div class="grid-col-3">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                                cumque.
+                            </p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                                cumque.
+                            </p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">Card Title</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                                cumque.
+                            </p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;div class="grid-col-3"&gt;
+
+                                &lt;div class="..."&gt;...&lt;/div&gt;
+                                &lt;div class="..."&gt;...&lt;/div&gt;
+                                &lt;div class="..."&gt;...&lt;/div&gt;
+
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Responsive Images-->
+            <section id="images" class="images">
+
+                <h1>Images</h1>
+
+                <div class="images-container">
+
+                    <!--Responsive image-->
+                    <div class="img-container-one">
+                        <img class="img-fluid" src="images/space-shuttle.jpg" alt="Space shuttle getting ready to launch!!" />
+                    </div>
+
+                    <!--Round image-->
+                    <img class="img-container-one img-round" src="images/astronaut.jpg" alt="astronaut on the moon" />
+
+                    <!--Small image-->
+                    <img class="img-round-sm" src="images/astronaut.jpg" alt="astronaut on moon" />
+
+                    <!--Medium image-->
+                    <img class="img-round-md" src="images/astronaut.jpg" alt="astronaut on moon" />
+
+                    <!--Large image-->
+                    <img class="img-round-lg" src="images/astronaut.jpg" alt="astronaut on moon" />
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;img class="img-fluid" src="..." alt="..." /&gt;
+
+                            &lt;img class="img-round" src="..." alt="..." /&gt;
+
+                            &lt;img class="img-round-sm" src="..." alt="..." /&gt;
+
+                            &lt;img class="img-round-md" src="..." alt="..." /&gt;
+        
+                            &lt;img class="img-round-lg" src="..." alt="..." /&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Inputs-->
+            <section id="inputs" class="inputs">
+
+                <article>
+                    <h1>Inputs</h1>
+                    <p>As the name suggests, Inputs take input from the user.</p>
+                </article>
+
+                <!--Styled inputs-->
+                <div class="input-container">
+                    <div class="input-inner">
+                        <input class="input-styled" type="text" placeholder="username" />
+
+                        <!--Styled input for errors-->
+                        <input class="input-styled input-styled-error" type="text" placeholder="email" />
+
+                        <!--Styled input for success-->
+                        <input class="input-styled input-styled-success" type="password" placeholder="password" />
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;input class="input-styled" type="..." placeholder="..." /&gt;
+
+                            &lt;input class="input-styled input-styled-error" type="..." placeholder="..." /&gt;
+
+                            &lt;input class="input-styled input-styled-success" type="..." placeholder="..." /&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Lists-->
+            <section id="lists" class="lists">
+
+                <article>
+                    <h1>Lists</h1>
+                    <p>Lists are used for displaying a series of content in a systematic manner.</p>
+                </article>
+
+                <!--Unstyled list-->
+                <h3>Normal List</h3>
+                <ul class="list-unstyled">
+                    <li class="list-items">Home</li>
+                    <li class="list-items">Profile</li>
+                    <li class="list-items">Lists</li>
+                    <li class="list-items">Topics</li>
+                </ul>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;ul class="list-unstyled"&gt;
+                                &lt;li class="list-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-items"&gt;...&lt;/li&gt;
+                            &lt;ul&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Styled list-->
+                <h3>Styled List</h3>
+                <ul class="list-styled">
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                </ul>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;ul class="list-styled"&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                            &lt;ul&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Another Styled list-->
+                <h3>Alternate Stripes Styled List</h3>
+                <ul class="list-styled list-styled-stripes">
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                    <li class="list-styled-items">Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+                </ul>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;ul class="list-styled list-styled-stripes"&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                                &lt;li class="list-styled-items"&gt;...&lt;/li&gt;
+                            &lt;ul&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+            <!-- Modal -->
+            <section id="modals" class="modals">
+
+                <article>
+                    <h1>Modal</h1>
+                    <p>A modal is a dialog box/popup window that is displayed on top of the current page.
+                    </p>
+                </article>
+
+                <!--Modal-->
+                <div class="modal">
+
+                    <!--Modal header-->
+                    <div class="modal-header">
+                        <h2 class="modal-title">Modal Title</h2>
+                        <button class="btn btn-primary btn-close">&times;</button>
+                    </div>
+
+                    <!--Modal body-->
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto dolorem illum, amet error praesentium illo quaerat laborum unde ea cupiditate dignissimos repellendus? Beatae magni sed voluptas, vel dignissimos earum!</p>
+                    </div>
+
+                    <!--Modal footer-->
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary">Close</button>
+                        <button class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+
+                            &lt;div class="modal"&gt;
+
+                                &lt;!--Modal header--&gt;
+                                &lt;div class="modal-header"&gt;
+                                    &lt;h2 class="modal-title"&gt;Modal Title&lt;/h2&gt;
+                                    &lt;button class="btn btn-primary btn-close"&gt;&times;&lt;/button&gt;
+                                &lt;/div&gt;
+
+                                &lt;!--Modal body--&gt;
+                                &lt;div class="modal-body"&gt;
+                                    &lt;p&gt;...&lt;/p&gt;
+                                &lt;/div&gt;
+
+                                &lt;!--Modal footer--&gt;
+                                &lt;div class="modal-footer"&gt;
+                                    &lt;button class="btn btn-secondary"&gt;Close&lt;/button&gt;
+                                    &lt;button class="btn btn-primary"&gt;Save&lt;/button&gt;
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+            <!--Navigation Bar-->
+            <section id="navigation" class="navigations">
+
+                <article>
+                    <h1>Navigation</h1>
+                    <p>It is used to navigate between different sections of the applicaton.</p>
+                </article>
+
+                <!--Basic navigation-->
+                <div class="navbar-one">
+                    <nav class="nav">
+                        <a href="#" class="navbar-brand">Nav</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href=#>Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href=#>Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href=#>About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;nav class="nav"&gt;
+
+                                &lt;a href="#" class="navbar-brand"&gt;Nav&lt;/a&gt;
+                                &lt;ul class="navbar-nav"&gt;
+                                    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href=#&gt;Home&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href=#&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href=#&gt;About&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+
+                            &lt;/nav&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <!--Styled navigation-->
+                <nav class="nav">
+                    <a href="#" class="navbar-brand">Nav</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href=#>Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href=#>Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href=#>About</a></li>
+                    </ul>
+                    <div>
+                        <i class="fa fa-2x fa-facebook-official"></i>
+                        <i class="fa fa-2x fa-twitter"></i>
+                    </div>
+                </nav>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;nav class="nav"&gt;
+
+                                &lt;a href="#" class="navbar-brand"&gt;Nav&lt;/a&gt;
+                                &lt;ul class="navbar-nav"&gt;
+                                    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href=#&gt;Home&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href=#&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="nav-item"&gt;&lt;a class="nav-link" href=#&gt;About&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+
+                                &lt;div&gt;
+                                    &lt;i class="fa fa-2x fa-facebook-official"&gt;&lt;/i&gt;
+                                    &lt;i class="fa fa-2x fa-twitter"&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+
+                            &lt;/nav&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Slider-->
+            <section id="sliders" class="sliders">
+                <h1>Slider</h1>
+                <input type="range" min="100" max="1000" value="550" />
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;input type="range" min="..." max="..." value="..." /&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Text Utilities-->
+            <section id="utilities" class="utilites">
+                <h1>Text Utilities</h1>
+
+                <!--Font sizes-->
+                <h3>Font Sizes</h3>
+                <p class="font-size-1">This line has font size 3.5rem</p>
+                <p class="font-size-2">This line has font size 3rem</p>
+                <p class="font-size-3">This line has font size 2.5rem</p>
+                <p class="font-size-4">This line has font size 2rem</p>
+                <p class="font-size-5">This line has font size 1.5rem</p>
+                <p class="font-size-6">This line has font size 1rem</p>
+                <p class="font-size-7">This line has font size 0.75rem</p>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="font-size-1"&gt;...&lt;/p&gt;
+
+                            &lt;p class="font-size-2"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-3"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-4"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-5"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-6"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-size-7"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Font weights-->
+                <h3>Font Weights</h3>
+                <p class="font-weight-bold">This line has font weight as Bold</p>
+                <p class="font-weight-bolder">This line has font weight as Bolder</p>
+                <p class="font-weight-lighter">This line has font weight as Lighter</p>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="font-weight-bold"&gt;...&lt;/p&gt;
+
+                            &lt;p class="font-weight-bolder"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="font-weight-lighter"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Font Styles-->
+                <h3>Font Styles</h3>
+                <p class="font-style-normal">This line has font style as Normal</p>
+                <p class="font-style-italic">This line has font style as Italic</p>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="font-style-normal"&gt;...&lt;/p&gt;
+
+                            &lt;p class="font-style-italic"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Text colors-->
+                <h3>Text Colors</h3>
+                <p class="text-color-black">This line has text color as Black</p>
+                <p class="text-color-gray">This text has text-color as Gray</p>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="text-color-black"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-color-gray"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Text alignments-->
+                <h3>Text Alignment</h3>
+                <p class="text-align-left">This line is Left aligned</p>
+                <p class="text-align-center">This line is Center aligned</p>
+                <p class="text-align-right">This line is Right aligned</p>
+
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="text-align-left"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-align-center"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-align-right"&gt;...&lt;/p&gt;    
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Text transformations - uppercase and lowercase-->
+                <h3>Text Transform</h3>
+                <p class="text-lowercase">This Line Is Converted To Lowercase</p>
+                <p class="text-uppercase">this line is converted to uppercase</p>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;p class="text-lowercase"&gt;...&lt;/p&gt;
+
+                            &lt;p class="text-uppercase"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+
+                <!--Text decorations-->
+                <h3>Text Decoration</h3>
+                <a href="#" class="text-decoration-none">This line has text decoration as none</a>
+                <p class="text-decoration-underline">This line has a line underneath it</p>
+                <p class="text-decoration-line-through">This line has a line through it</p>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;a href="#" class="text-decoration-none"&gt;...&lt;/a&gt;
+
+                            &lt;p class="text-decoration-underline"&gt;...&lt;/p&gt;
+                            
+                            &lt;p class="text-decoration-line-through"&gt;...&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+
+
+            <!--Toast-->
+            <section id="toasts" class="toasts">
+
+                <article>
+                    <h1>Toast</h1>
+                    <p>The toast component is like an alert box that is only shown for a couple of seconds when something happens i.e. when the user clicks on a button, submits a form, etc. </p>
+                </article>
+
+                <div class="toast">
+                    <p>This is a toast</p>
+                    <button class="btn btn-icon">&times;</button>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                        <code>
+                            &lt;div class="toast"&gt;.....&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
