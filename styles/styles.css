@@ -16,6 +16,10 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: 0.9rem;
+}
+
 ul>li {
     list-style-type: none;
 }
@@ -86,6 +90,10 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: baseline;
+}
+
+.cards-container {
+    align-items: center;
 }
 
 .img-container-one {

@@ -171,7 +171,8 @@
 
                 <article>
                     <h1>Badges</h1>
-                    <p>Badges add extra information to the content. Like a message counter on a messaging application.</p>
+                    <p>Badges add extra information to the content. Like a message counter on a messaging application.
+                    </p>
                 </article>
 
                 <div class="badge-container">
@@ -230,7 +231,7 @@
                     <button class="btn btn-icon"><i class="fa fa-home"></i></button>
 
                     <!--Floating Action Button-->
-                    <button class="btn-float">+</button>
+                    <button class="btn-round">+</button>
                 </div>
 
                 <div class="code-container">
@@ -254,12 +255,55 @@
             </section>
 
 
+            <!--Outline Buttons-->
+            <section>
+                <article>
+                    <h1>Outline Buttons</h1>
+                    <p>Outline Buttons also work in the same way as Buttons.</p>
+                </article>
+
+                <div class="btn-container">
+
+                    <!--Primary Button-->
+                    <button class="btn btn-outline-primary">Primary</button>
+
+                    <!--Secondary Button-->
+                    <button class="btn btn-outline-secondary">Secondary</button>
+
+                    <button class="btn-outline-round">
+                        <i class="fa fa-times"></i>
+                    </button>
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+                    <code>
+                        &lt;button class="btn btn-primary"&gt;...&lt;button&gt;
+
+                        &lt;button class="btn btn-secondary"&gt;...&lt;button&gt;
+
+                        &lt;button class="btn btn-link"&gt;...&lt;button&gt;
+
+                        &lt;button class="btn btn-icon-text"&gt;...&lt;button&gt;
+
+                        &lt;button class="btn btn-icon"&gt;...&lt;button&gt;
+
+                        &lt;button class="btn-float"&gt;...&lt;button&gt;
+                    </code>
+                </pre>
+                </div>
+
+            </section>
+
+
             <!--Cards-->
             <section id="cards" class="cards">
 
                 <article>
                     <h1>Cards</h1>
-                    <p>A card is a flexible and extensible content container. It usually consists of body and footer along with buttons, badges and other contents. Usually found in ecommerce and video streaming applications</p>
+                    <p>A card is a flexible and extensible content container. It usually consists of body and footer along with buttons, badges and other contents. Usually found in ecommerce and video streaming applications
+                    </p>
                 </article>
 
                 <div class="cards-container">
@@ -267,7 +311,7 @@
                     <!--Card with a badge-->
 
                     <div class="card">
-                        <img class="img-fluid" src="./assests/robot.jpg" alt="big robot" />
+                        <img class="card-img" src="./assests/robot.jpg" alt="big robot" />
                         <div class="card-body">
                             <h2 class="card-title">Card Title</h2>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
@@ -280,7 +324,7 @@
 
                     <!--Card with a dismiss button-->
                     <div class="card">
-                        <img class="img-fluid" src="./assests/robot.jpg" alt="big robot" />
+                        <img class="card-img" src="./assests/robot.jpg" alt="big robot" />
                         <button class="btn btn-icon card-dismiss">&times;</button>
                         <div class="card-body">
                             <h2 class="card-title">Card Title</h2>
@@ -291,7 +335,7 @@
 
                     <!--Card with text overlay-->
                     <div class="card">
-                        <img class="img-fluid" src="./assests/robot.jpg" alt="big robot" />
+                        <img class="card-img" src="./assests/robot.jpg" alt="big robot" />
                         <div class="card-body">
                             <h2 class="card-title">Card Title</h2>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
@@ -306,34 +350,41 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Card Title</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                            <p class="card-text-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
                                 cumque.
                             </p>
                             <button class="btn btn-primary">Button</button>
                         </div>
                     </div>
 
-                </div>
+                    <div class="card-horizontal">
+                        <img class="card-horizontal-img" src="./assests/robot.jpg" alt="big robot" />
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
+                            <button class="btn btn-primary">Button</button>
+                        </div>
 
-                <div class="code-container">
-                    <pre>
-                        <code>
+                    </div>
 
-                            &lt;div class="card"&gt;
-                                &lt;img class="img-fluid" src="..." alt="..." /&gt;
-                                &lt;div class="card-body"&gt;
-                                    &lt;h2 class="card-title"&gt;Card Title&lt;/h2&gt;
-                                    &lt;p class="card-text"&gt;.....&lt;/p&gt;
-                                    &lt;button class="btn btn-primary"&gt;Button&lt;/button&gt;
-                                    &lt;div class="card-badge"&gt;
-                                        &lt;span class="badge badge-primary"&gt;NEW&lt;/span&gt;
+                    <div class="code-container">
+                        <pre>
+                            <code>
+                                &lt;div class="card"&gt;
+                                    &lt;img class="card-img" src="..." alt="..." /&gt;
+                                    &lt;div class="card-body"&gt;
+                                        &lt;h2 class="card-title"&gt;Card Title&lt;/h2&gt;
+                                        &lt;p class="card-text"&gt;.....&lt;/p&gt;
+                                        &lt;button class="btn btn-primary"&gt;Button&lt;/button&gt;
+                                        &lt;div class="card-badge"&gt;
+                                            &lt;span class="badge badge-primary"&gt;NEW&lt;/span&gt;
+                                        &lt;/div&gt;
                                     &lt;/div&gt;
                                 &lt;/div&gt;
-                            &lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
 
-                        </code>
-                    </pre>
-                </div>
 
             </section>
 
@@ -349,7 +400,7 @@
                 <div class="grid-container grid-col-2">
 
                     <div class="card">
-                        <img class="img-fluid" src="./assests/robot.jpg" alt="big robot" />
+                        <img class="card-img" src="./assests/robot.jpg" alt="big robot" />
                         <div class="card-body">
                             <h2 class="card-title">Card Title</h2>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
@@ -358,7 +409,7 @@
                     </div>
 
                     <div class="card">
-                        <img class="img-fluid" src="./assests/robot.jpg" alt="big robot" />
+                        <img class="card-img" src="./assests/robot.jpg" alt="big robot" />
                         <div class="card-body">
                             <h2 class="card-title">Card Title</h2>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quae modi voluptatem ipsa ullam aliquam nisi impedit. Amet esse fuga quo. Eaque quis placeat sapiente cupiditate! Unde fugiat eum temporibus!</p>
@@ -390,7 +441,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Card Title</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                            <p class="card-text-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
                                 cumque.
                             </p>
                             <button class="btn btn-primary">Button</button>
@@ -400,7 +451,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Card Title</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                            <p class="card-text-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
                                 cumque.
                             </p>
                             <button class="btn btn-primary">Button</button>
@@ -410,7 +461,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Card Title</h1>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
+                            <p class="card-text-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor reprehenderit sequi rem recusandae assumenda tempore quae asperiores accusamus repellat vel adipisci excepturi eos harum voluptatem laudantium, autem sint amet
                                 cumque.
                             </p>
                             <button class="btn btn-primary">Button</button>
@@ -930,7 +981,7 @@
             </section>
 
         </main>
-    </div>
+        </div>
 </body>
 
 </html>

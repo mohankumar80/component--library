@@ -7,9 +7,11 @@
     --gray: #6B7280;
     --dark-orange: #EA580C;
     --dark-gray: #4B5563;
+    --light-gray: #64748B;
     --orange: #FF7518;
     --green: #22C55E;
     --red: #EF4444;
+    --white: #FFFFFF;
 }
 
 
@@ -201,6 +203,7 @@ Buttons
 */
 
 .btn {
+    text-decoration: none;
     border: 0;
     border-radius: 0.2rem;
     color: white;
@@ -280,7 +283,7 @@ Buttons
 
 /* Floating button */
 
-.btn-float {
+.btn-round {
     border: 0;
     border-radius: 50%;
     background-color: var(--orange);
@@ -296,6 +299,55 @@ Buttons
 }
 
 
+/* 
+Outline Buttons 
+*/
+
+
+/* Primary Outline Button */
+
+.btn-outline-primary {
+    border: 1px solid var(--dark-orange);
+    color: var(--dark-orange);
+    background-color: var(--white);
+}
+
+.btn-outline-primary:hover {
+    color: var(--white);
+    background-color: var(--dark-orange);
+}
+
+
+/* Secondary Outline Button */
+
+.btn-outline-secondary {
+    color: var(--light-gray);
+    background-color: var(--white);
+    border: 1px solid var(--light-gray)
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--light-gray);
+    color: var(--white);
+}
+
+
+/* Round Outline Button */
+
+.btn-outline-round {
+    background-color: var(--white);
+    border-radius: 50%;
+    border: 1px solid var(--light-gray);
+    padding: 0.5rem;
+}
+
+.btn-outline-round:hover {
+    background-color: var(--light-gray);
+    color: var(--white);
+    cursor: pointer;
+}
+
+
 /*
 Cards
 */
@@ -304,8 +356,6 @@ Cards
 /* General styling for card component */
 
 .card {
-    border: 2px solid black;
-    border-radius: 0.2rem;
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
@@ -313,17 +363,27 @@ Cards
     width: 20rem;
 }
 
+.card-img {
+    max-width: 100%;
+}
+
 .card-body {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .card-title {
     margin: 0;
+    font-size: 1rem;
 }
 
 .card-text {
+    font-size: 0.8rem;
+    margin: 0;
     flex-grow: 2;
-    line-height: 1.25rem;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px #94A3B8;
 }
 
 
@@ -350,6 +410,32 @@ Cards
 .card-overlay {
     position: absolute;
     top: 0;
+}
+
+
+/* Card with text only */
+
+.card-text-only {
+    font-size: 1rem;
+}
+
+
+/* Horizontal Card */
+
+.card-horizontal {
+    width: 18rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-horizontal-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-horizontal:hover {
+    box-shadow: 0px 0px 15px #94A3B8;
 }
 
 
